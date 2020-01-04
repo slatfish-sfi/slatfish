@@ -1,150 +1,332 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html lang="en">
-   
-   
-    <head>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Saltfish - Personal Portfolio</title>
+<meta name="description" content="">
+<meta name="author" content="">
 
+<!-- Favicons
+    ================================================== -->
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 
-        <!-- META -->
-        <meta charset="utf-8">
-        
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css">
 
-        <!-- PAGE TITLE -->
-        <title>Saltfish - Personal Portfolio</title>
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css"  href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
+<link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
 
-        <!-- FAVICON -->
-        <link rel="shortcut icon" href="assets/img/favicon.png">
-
-        <!-- STYLESHEETS -->
-        <link rel="stylesheet" type="text/css" href="assets/css/plugins.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-
-
-    </head>
-
-
-    <body>
-    
-       
-        <!-- PRELOADER -->
-        <div class="preloader">
-           
-            <div class="bounce"></div>
-            
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- Header -->
+<header id="header">
+  <div class="intro">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-8">
+            <div class="intro-text">
+              <h1>咸鱼_Saltfish</h1>
+              <p>Photographer</p>
+              <a href="#portfolio" class="btn btn-custom btn-lg page-scroll">作品集</a> <a href="#contact" class="btn btn-custom btn-lg page-scroll">关于我</a> </div>
+          </div>
         </div>
-        <!-- /PRELOADER -->
-        
-        
-        <!-- NAVIGATION BUTTON -->
-        <div class="navigation-button">
-
-             <a href="about.html"><p><i class="fa fa-info" aria-hidden="true"></i></p></a>
-
+      </div>
+    </div>
+  </div>
+</header>
+<!-- Portfolio Section -->
+<div id="portfolio">
+  <div class="container">
+    <div class="section-title">
+      <h2>我的作品</h2>
+    </div>
+    <div class="categories">
+      <ul class="cat">
+        <li>
+          <ol class="type">
+            <li><a href="#" data-filter="*" class="active">近期作品</a></li>
+            <li><a href="#" data-filter=".blm">不良猫</a></li>
+            <li><a href="#" data-filter=".hf">和风少女</a></li>
+            <li><a href="#" data-filter=".yzy">幼稚园</a></li>
+            <li><a href="#" data-filter=".jks">JKs</a></li>
+            <li><a href="#" data-filter=".lo">Lolita</a></li>
+          </ol>
+        </li>
+      </ul>
+    </div>
+    <div class="row">
+      <div class="portfolio-items">
+        <div class="col-sm-6 col-md-4 yzy">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="https://tva1.sinaimg.cn/large/006tNbRwgy1gaifo64f0uj318z0u0kjt.jpg" title="JKs" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>Jks</h4>
+                  </div>
+                </div>
+              </div>
+              <img src="https://tva1.sinaimg.cn/large/006tNbRwgy1gaifo64f0uj318z0u0kjt.jpg" class="img-responsive" alt="JKs"> </a> </div>
+          </div>
         </div>
-        <!-- /NAVIGATION BUTTON -->
-
-
-        <!-- HERO -->
-        <div class="hero">
-
-
-            <!-- FRONT CONTENT -->
-            <div class="front-content">
-                   
-                <h1>Hi! I’m <span>Saltfish</span>.<br>I’m a Photgrapher based<br>in Wuhan.</h1>
-
-            </div>
-            <!-- /FRONT CONTENT -->
-
-
+        <div class="col-sm-6 col-md-4 hf">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="https://tva1.sinaimg.cn/large/006tNbRwgy1gaimbqm6hdj30u0190x6u.jpg" title="和风少女" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>和风少女</h4>
+                  </div>
+                </div>
+              </div>
+              <img src="https://tva1.sinaimg.cn/large/006tNbRwgy1gaimbqm6hdj30u0190x6u.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
         </div>
-        <!-- /HERO -->
+        <div class="col-sm-6 col-md-4 jks">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="https://tva1.sinaimg.cn/large/006tNbRwgy1gaignycvc7j30u0190qv7.jpg" title="Jks" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>JKs</h4>
+                  </div>
+                </div>
+              </div>
+              <img src="https://tva1.sinaimg.cn/large/006tNbRwgy1gaignz3129j31400u0e83.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 blm">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="https://tva1.sinaimg.cn/large/006tNbRwgy1gaigotg93dj30u0140qva.jpg" title="不良猫" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>不良猫</h4>
+                  </div>
+                </div>
+              </div>
+              <img src="https://tva1.sinaimg.cn/large/006tNbRwgy1gaigotg93dj30u0140qva.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 hf">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="https://tva1.sinaimg.cn/large/006tNbRwgy1gakjjgmn2jj31900u0hdw.jpg" title="和风少女" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>和风少女</h4>
+                  </div>
+                </div>
+              </div>
+              <img src="https://tva1.sinaimg.cn/large/006tNbRwgy1gakjjgmn2jj31900u0hdw.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 lo">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="https://tva1.sinaimg.cn/large/006tNbRwgy1gaignxfxdoj318y0u0qa9.jpg" title="贝妮草药学" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>贝妮草药学</h4>
+                  </div>
+                </div>
+              </div>
+              <img src="https://tva1.sinaimg.cn/large/006tNbRwgy1gaignxfxdoj318y0u0qa9.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 jks">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="https://tva1.sinaimg.cn/large/006tNbRwgy1gaigo0i6awj318z0u0x6v.jpg" title="JKs" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>JKs</h4>
+                  </div>
+                </div>
+              </div>
+              <img src="https://tva1.sinaimg.cn/large/006tNbRwgy1gaigo0i6awj318z0u0x6v.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 jks">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="https://tva1.sinaimg.cn/large/006tNbRwgy1gaignx7dbmj318z0u0b2d.jpg" title="Jks" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>JKs</h4>
+                  </div>
+                </div>
+              </div>
+              <img src="https://tva1.sinaimg.cn/large/006tNbRwgy1gaignx7dbmj318z0u0b2d.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 blm">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="https://tva1.sinaimg.cn/large/006tNbRwgy1gakifwe8vxj30u0140kjm.jpg" title="不良猫" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>不良猫</h4>
+                  </div>
+                </div>
+              </div>
+              <img src="https://tva1.sinaimg.cn/large/006tNbRwgy1gakifwe8vxj30u0140kjm.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 blm">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="https://tva1.sinaimg.cn/large/006tNbRwgy1gakifv9om1j30u01401ky.jpg" title="不良猫" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>不良猫</h4>
+                  </div>
+                </div>
+              </div>
+              <img src="https://tva1.sinaimg.cn/large/006tNbRwgy1gakifv9om1j30u01401ky.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 adipiscing">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="https://tva1.sinaimg.cn/large/006tNbRwgy1gakifsswx4j30u0140hdu.jpg" title="不良猫" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>不良猫</h4>
+                  </div>
+                </div>
+              </div>
+              <img src="https://tva1.sinaimg.cn/large/006tNbRwgy1gakifsswx4j30u0140hdu.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 blm">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="https://tva1.sinaimg.cn/large/006tNbRwgy1gakirwsj07j30u0140e82.jpg" title="不良猫" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>不良猫</h4>
+                  </div>
+                </div>
+              </div>
+              <img src="https://tva1.sinaimg.cn/large/006tNbRwgy1gakirwsj07j30u0140e82.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4 blm">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="https://tva1.sinaimg.cn/large/006tNbRwgy1gakirq7nprj30u01407wi.jpg" title="不良猫" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>不良猫</h4>
+                  </div>
+                </div>
+              </div>
+              <img src="https://tva1.sinaimg.cn/large/006tNbRwgy1gakirq7nprj30u01407wi.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
         
-        <!-- PORTFOLIO -->
-        <div class="portfolio">
-            
-            
-            <!-- ITEM -->
-            <a class="item" href="https://tva1.sinaimg.cn/large/006tNbRwgy1gaifo64f0uj318z0u0kjt.jpg">
-               
-                <i class="fa fa-eye" aria-hidden="true"></i>
-                <div class="item-cover" style="background-image: url(https://tva1.sinaimg.cn/large/006tNbRwgy1gaifo64f0uj318z0u0kjt.jpg)"></div>
-                
-            </a>
-            <!-- /ITEM -->
-            
-            
-            <!-- ITEM -->
-            <a class="item" href="https://tva1.sinaimg.cn/large/006tNbRwgy1gaimbqm6hdj30u0190x6u.jpg">
-               
-                <i class="fa fa-eye" aria-hidden="true"></i>
-                <div class="item-cover" style="background-image: url(https://tva1.sinaimg.cn/large/006tNbRwgy1gailwpiiusj31400u01l4.jpg)"></div>
-                
-            </a>
-            <!-- /ITEM -->
-            
-            
-            <!-- ITEM -->
-            <a class="item" href="https://tva1.sinaimg.cn/large/006tNbRwgy1gaignycvc7j30u0190qv7.jpg">
-               
-                <i class="fa fa-eye" aria-hidden="true"></i>
-                <div class="item-cover" style="background-image: url(https://tva1.sinaimg.cn/large/006tNbRwgy1gaignz3129j31400u0e83.jpg)"></div>
-                
-            </a>
-            <!-- /ITEM -->
+        <div class="col-sm-6 col-md-4 hf">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="https://tva1.sinaimg.cn/large/006tNbRwgy1gakjctvgbaj30u01904qw.jpg" title="和风少女" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>和风少女</h4>
+                  </div>
+                </div>
+              </div>
+              <img src="https://tva1.sinaimg.cn/large/006tNbRwgy1gakjctvgbaj30u01904qw.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 hf">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="https://tva1.sinaimg.cn/large/006tNbRwgy1gakjj9rg4mj31900u0e83.jpg" title="和风少女" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>和风少女</h4>
+                  </div>
+                </div>
+              </div>
+              <img src="https://tva1.sinaimg.cn/large/006tNbRwgy1gakjj9rg4mj31900u0e83.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
 
 
-             <!-- ITEM -->
-             <a class="item" href="https://tva1.sinaimg.cn/large/006tNbRwgy1gaigotg93dj30u0140qva.jpg">
-               
-                <i class="fa fa-eye" aria-hidden="true"></i>
-                <div class="item-cover" style="background-image: url(https://tva1.sinaimg.cn/large/006tNbRwgy1gaigotveedj31400u04qp.jpg)"></div>
-                
-            </a>
-            <!-- /ITEM -->
-            
-            
-            <!-- ITEM -->
-            <a class="item" href="https://tva1.sinaimg.cn/large/006tNbRwgy1gaignxfxdoj318y0u0qa9.jpg">
-               
-                <i class="fa fa-eye" aria-hidden="true"></i>
-                <div class="item-cover" style="background-image: url(https://tva1.sinaimg.cn/large/006tNbRwgy1gaignxfxdoj318y0u0qa9.jpg)"></div>
-                
-            </a>
-            <!-- /ITEM -->
-            
-            
-            <!-- ITEM -->
-            <a class="item" href="https://tva1.sinaimg.cn/large/006tNbRwgy1gaigo0i6awj318z0u0x6v.jpg">
-               
-                <i class="fa fa-eye" aria-hidden="true"></i>
-                <div class="item-cover" style="background-image: url(https://tva1.sinaimg.cn/large/006tNbRwgy1gaigo0i6awj318z0u0x6v.jpg)"></div>
-                
-            </a>
-            <!-- /ITEM -->
-            
-            
-            <!-- ITEM -->
-            <a class="item" href="https://tva1.sinaimg.cn/large/006tNbRwgy1gaignx7dbmj318z0u0b2d.jpg">
-               
-                <i class="fa fa-eye" aria-hidden="true"></i>
-                <div class="item-cover" style="background-image: url(https://tva1.sinaimg.cn/large/006tNbRwgy1gaignx7dbmj318z0u0b2d.jpg)"></div>
-                
-            </a>
-            <!-- /ITEM -->
-            
-            
-        <!-- /PORTFOLIO -->
-        
-
-        <!-- JAVASCRIPTS -->
-        <script type="text/javascript" src="assets/js/plugins.js"></script>
-        <script type="text/javascript" src="assets/js/main.js"></script>
-
-
-    </body> 
-    
-    
+        <div class="col-sm-6 col-md-4 jks">
+          <div class="portfolio-item">
+            <div class="hover-bg"> <a href="https://tva1.sinaimg.cn/large/006tNbRwgy1gakj4pcu6aj318z0u07wm.jpg" title="少女写真" data-lightbox-gallery="gallery1">
+              <div class="hover-text">
+                <div class="overlay-caption">
+                  <div class="overlay-content">
+                    <h4>少女写真</h4>
+                  </div>
+                </div>
+              </div>
+              <img src="https://tva1.sinaimg.cn/large/006tNbRwgy1gakj4pcu6aj318z0u07wm.jpg" class="img-responsive" alt="Project Title"> </a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Contact Section -->
+<div id="contact">
+  <div class="container">
+    <h2>About Me</h2>
+    <div class="col-md-6">
+      <div class="section-title">
+        <div class="row"> <img src="https://tva1.sinaimg.cn/large/006tNbRwgy1gakizk9v4yj30u00u0qv7.jpg" class="img-responsive pull-left" alt="">
+          <p>这里咸鱼，坐标武汉的一名“妹”摄，希望能和美少女们一起出片</p>
+          <p>深陷三坑，小裙子真是太美好了，我永远喜欢Lolita</p>
+          <div class="social">
+            <ul>
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-behance"></i></a></li>
+              <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+              <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-5 col-md-offset-1">
+      <div class="section-title">
+        <p>约片，扩列请加我QQ:2105144559</p>
+        <p>weibo:咸鱼咸鱼咸_</p>
+        <p>大家都来找我玩鸭！</p>
+      </div>
+<div id="footer">
+</div>
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script> 
+<script type="text/javascript" src="js/bootstrap.js"></script> 
+<script type="text/javascript" src="js/SmoothScroll.js"></script> 
+<script type="text/javascript" src="js/nivo-lightbox.js"></script> 
+<script type="text/javascript" src="js/jquery.isotope.js"></script> 
+<script type="text/javascript" src="js/jqBootstrapValidation.js"></script> 
+<script type="text/javascript" src="js/contact_me.js"></script> 
+<script type="text/javascript" src="js/main.js"></script>
+</body>
 </html>
